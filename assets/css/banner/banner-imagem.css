@@ -1,0 +1,17 @@
+.banner__imagem{
+	background: url("../../img/banner.jpg") no-repeat center / cover; /* Codigo compacto de importação e configuração de imagens */
+	height: calc(100vh - 72px); /* 100% de viewport height = Tamanho da pagina inteira */
+	width: 100%;
+}
+
+@media screen and (min-width: 0){
+	.banner__imagem{
+		height: calc(100vh - 51px);
+	}
+}
+
+@media screen and (min-width: 768px){
+	.banner__imagem{
+		height: calc(100vh - 72px);
+	}
+}
